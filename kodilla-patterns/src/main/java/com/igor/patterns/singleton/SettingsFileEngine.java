@@ -1,7 +1,7 @@
 package com.igor.patterns.singleton;
 
 public final class SettingsFileEngine {
-    private static SettingsFileEngine settingsFileEngineInstance = null;
+    private static volatile SettingsFileEngine settingsFileEngineInstance = null;
     private String fileName = "";
 
     private SettingsFileEngine() {
