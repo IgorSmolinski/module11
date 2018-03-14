@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="com.igor.module11_main" target="1.8" />
       <module name="com.igor.module11_test" target="1.8" />
+      <module name="jdbc_main" target="1.8" />
+      <module name="jdbc_test" target="1.8" />
       <module name="kodilla-patterns_main" target="1.8" />
       <module name="kodilla-patterns_test" target="1.8" />
     </bytecodeTargetLevel>
